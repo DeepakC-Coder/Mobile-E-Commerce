@@ -5,18 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple Page</title>
-    <link rel="icon" href="logo.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="C:\Users\Home\Desktop\HTML Programs\E-Commerce Website\assets\logo.png">
+    <link rel="stylesheet" href="C:\Users\Home\Desktop\HTML Programs\E-Commerce Website\assets\style.css">
+    <style>
+        /* Add smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
 <body style="background-color:darkgrey;">
     <nav>
         <h1 class="title">Appley</h1>
         <ul class="ul1">
-            <li class="lihover">Home |</li>
+            <a class="home" href="C:\Users\Home\Desktop\HTML Programs\E-Commerce Website\assets\index.html" >Home |</a>
+            <a class="about" href="C:\Users\Home\Desktop\HTML Programs\E-Commerce Website\assets\aboutus.html"
+                target="_blank">About |</a>
             <li class="lihover">Products |</li>
-            <li class="lihover">About |</li>
-            <li class="lihover">Contact |</li>
+            <a class="contact" href="#contact">Contact |</a>
         </ul>
     </nav>
     <center>
@@ -28,34 +35,45 @@
     <div class="products">
 
         <div class="box">
-            <img src="p1.jpg" alt="" width="220" height="220">
+            <img src="C:\Users\Home\Desktop\HTML Programs\E-Commerce Website\assets\p1.jpg" alt="" width="220"
+                height="220">
             <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat repre</p><br>
-            <h2>$1000</h2> <h3><strike> $1700   </strike></h3>
+            <h2>$1000</h2>
+            <h3><strike> $1700 </strike></h3>
 
         </div>
         <div class="box">
-            <img src="p2.jpg" alt="" width="220" height="220">
+            <img src="C:\Users\Home\Desktop\HTML Programs\E-Commerce Website\assets\p2.jpg" alt="" width="220"
+                height="220">
             <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat repre</p><br>
-            <h2>$800</h2> <h3><strike> $1200</strike></h3>
+            <h2>$800</h2>
+            <h3><strike> $1200</strike></h3>
 
         </div>
         <div class="box">
-            <img src="p3.jpeg" alt="" width="220" height="220">
+            <img src="C:\Users\Home\Desktop\HTML Programs\E-Commerce Website\assets\p3.jpeg" alt="" width="220"
+                height="220">
             <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat repre</p><br>
-            <h2>$450</h2> <h3><strike> $700</strike></h3>
+            <h2>$450</h2>
+            <h3><strike> $700</strike></h3>
 
         </div>
     </div>
     <div class="aboutus">
-       <center><h1 class="abs">About Us</h1></center> <br>
-       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis expedita, iusto officiis voluptatibus fugiat suscipit quae quasi consectetur fuga exercitationem cumque eligendi, eaque rerum. Saepe ea quae sint commodi nemo adipisci earum necessitatibus dolorum esse, error ullam recusandae qui beatae?</p>
+        <center>
+            <h1 class="abs">About Us</h1>
+        </center> <br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis expedita, iusto officiis voluptatibus
+            fugiat suscipit quae quasi consectetur fuga exercitationem cumque eligendi, eaque rerum. Saepe ea quae sint
+            commodi nemo adipisci earum necessitatibus dolorum esse, error ullam recusandae qui beatae?</p>
     </div>
 
-    <div class="contactblock">
+    <div class="contactblock" id="contact">
         <h2>Contact</h2> <br>
         <p>+91 XXXXXXXXXX</p>
         <p>myappley@gmail.com</p>
-        <p>This webpage is designed by Deepak which is going to be used as a model for the e-commerce project. Stay tuned for more updates</p>
+        <p>This webpage is designed by Deepak which is going to be used as a model for the e-commerce project. Stay
+            tuned for more updates</p>
     </div>
 </body>
 

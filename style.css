@@ -39,7 +39,7 @@
 
     .box {
         border-color: black;
-        border-width: 3px;
+        border-width: px;
         border-style: solid;
         display: inline-block;
         width: 220px;
@@ -67,6 +67,7 @@
         color: white;
         text-align: center;
         padding: 20px;
+        text-decoration: none;
     }
 
     .p1:hover {
@@ -80,3 +81,24 @@
         cursor: pointer;
 
     }
+    .home{
+        color: grey;
+        text-decoration: none;
+    }
+    .home:hover{
+        color: white;
+    }
+    .about{
+        color: grey;
+        text-decoration: none;
+    }
+    .about:hover{
+        color: white;
+    }
+    .contact{
+    color: grey;
+    text-decoration: none;
+}
+.contact:hover{
+    color: white;
+}
